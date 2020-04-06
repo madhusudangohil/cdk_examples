@@ -11,3 +11,9 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app. The build ste
  * `cdk diff`             compare deployed stack with current state
  * `cdk synth`            emits the synthesized CloudFormation template
 "# cdk_examples" 
+
+
+npm install -g aws-cdk
+cdk init app --language javascript
+npm install @aws-cdk/aws-s3 @aws-cdk/aws-lambda
+npm install @aws-cdk/aws-dynamodb
