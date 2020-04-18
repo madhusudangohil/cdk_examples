@@ -17,3 +17,6 @@ npm install -g aws-cdk
 cdk init app --language javascript
 npm install @aws-cdk/aws-s3 @aws-cdk/aws-lambda
 npm install @aws-cdk/aws-dynamodb
+
+
+https://docs.aws.amazon.com/cdk/api/latest/docs/aws-construct-library.html
